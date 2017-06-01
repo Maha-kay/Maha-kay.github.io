@@ -1,0 +1,420 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.abutton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #1199c3;
+}
+
+.education-entry,
+.work-entry,
+.project-entry,
+.cert-entry,
+#skills,
+#cources,
+#certificate,
+#projects-intro,
+#recentProjects {
+    padding: 0 5%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #000;
+    text-shadow: 3px 3px 3px #000;
+    line-height: 48px;
+    font-weight: lighter;
+    position: initial;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #999;
+    line-height: 29px;
+    padding: 10px;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #999;
+    line-height: 22px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    padding: 10px 5%;
+}
+
+li {
+    font-size: 15px;
+    color: #333;
+    line-height: 20px;
+}
+
+#pagePodred {
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-color: #bfd5d6;
+}
+
+.date-text,
+.cert-url {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    text-align: right;
+    display: inline;
+}
+
+.location-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: right;
+}
+
+p,
+em {
+    font-size: 16px;
+    color: #333;
+    line-height: 21px;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #1199c3;
+    margin-top: 10px;
+    display: block;
+}
+
+a:hover, a:link {
+    text-decoration: none;
+}
+
+#CerLink {
+    color: #1199c3;
+    text-decoration: none;
+    display: inline;
+}
+
+.welcome-message {
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+    line-height: 28px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.orange {
+    background-color:
+    background: #bfd5d6; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #bfd5d6 , #e5e21d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #bfd5d6, #e5e21d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #bfd5d6, #e5e21d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #bfd5d6 , #e5e21d); /* Standard syntax */
+}
+
+.blue {
+    background-color: #00334f;
+}
+
+.orange-text {
+    color: #f5ae23;
+}
+
+.white-text {
+    font-weight: lighter;
+    color: #fff;
+}
+
+.gray {
+    background-color: #f3f3f3;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.dark-gray {
+    background-color: #4a4a4a;
+}
+
+#modalLi {
+    list-style: none;
+}
+
+/* TODO: Replace with image later */
+
+.hidden {
+    display: none;
+}
+
+#location {
+    list-style: none;
+}
+
+#location,
+#role {
+    text-align: center;
+    display: block;
+}
+
+#nav {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.myNav:hover {
+    font-size: large;
+    color: #1199c3;
+}
+
+#footerContacts {
+    padding: 0;
+}
+
+.mobileNumber:hover,
+.emailAddress:hover,
+.githubAccount:hover {
+    transform: scale(1.1);
+}
+
+.flex-box {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-column {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.center-content {
+    padding: 2.5% 5%;
+}
+
+.noBullets {
+    list-style-type: none;
+}
+
+.mySkills:hover,
+.myCource:hover,
+#CerLink:hover {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#skills-h2 {
+    padding-bottom: 30px;
+}
+
+#certificate-h2 {
+    padding-top: 30px;
+}
+
+.biopic {
+    display: block;
+    margin: auto;
+    width: 150px;
+    opacity: 0.8;
+    border-radius: 100%;
+    clear: left;
+}
+
+.biopic:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.projectImg {
+    background-color: #829356;
+    box-shadow: 5px 5px 5px grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+}
+
+.projectImg:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+span {
+    padding: 5px;
+    color: #22292f;
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#cources {
+    margin-left: 16px;
+}
+
+i {
+    cursor: pointer;
+}
+
+#topContacts .topInfo {
+    display: none;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 999px) {
+
+    #pagePodred {
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-color: #bfd5d6;
+    }
+
+    #header {
+    padding-bottom: 0;
+}
+
+    #skills-h2,
+    #skills {
+        text-align: center;
+        list-style: none;
+    }
+
+    .certificates,
+    #certificate-h2,
+    #CerLink {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #lets-connect {
+        margin-top: 10%;
+    }
+
+    .certificates,
+    #certificate-h2,
+    #CerLink {
+        display: none;
+    }
+
+    #topContacts {
+        display: none;
+    }
+
+}
+
+#map {
+    display: block;
+    height: 400px;
+    width: 100%
+}
+
+#mapDiv {
+    height: 400px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+    #pagePodred {
+        border-right: none;
+        border-left: none;
+    }
+
+    #navDiv {
+        display: none;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .biopic {
+        display: none;
+    }
+
+    .schoolInfo,
+    #keyCources,
+    .myCource,
+    #role  {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #header {
+        border-radius: 5%
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #skills-h2,
+    .biopic {
+        display: block;
+    }
+}
