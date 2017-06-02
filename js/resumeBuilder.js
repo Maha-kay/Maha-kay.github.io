@@ -117,7 +117,7 @@ var education = {
     "onlineCourses": [{
         "title": "Nanodegree<br><em>Front-End Web Dveloper.<em>",
         "school": "Udacity",
-        "dates": "in progress",
+        "dates": "Jun. 2017",
         "url": "https://www.udacity.com",
         "FendDesc": "Visit program description"
     }],
@@ -319,6 +319,11 @@ projects.display(); // call the function
 var certificates = {
     // properties
     "certification": [{
+            "title": "Front-End Web Developer Nanodegree",
+            "urlDesc": "certificate of program completion",
+            "url": "ciscoCer/nd001.pdf"
+
+        },{
             "title": "CCNA R & S: Introduction to Networks.",
             "urlDesc": "certificate of course completion",
             "url": "ciscoCer/CCNA1.pdf"
